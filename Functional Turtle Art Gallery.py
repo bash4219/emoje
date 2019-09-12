@@ -83,6 +83,19 @@ def USstar():
         turtle.forward(18)
         turtle.right(-90)
 
+def squr(size1, size2):
+    for i in range(2):
+        turtle.forward(size1)
+        turtle.right(90)
+        turtle.forward(size2)
+        turtle.right(90)
+
+def sqursp():
+    for i in range(60):
+        squr(i*2, i*4)
+
+
+
 
 
 
@@ -147,9 +160,19 @@ turtle.speed(10)
 turtle.right(-90)
 turtle.forward(100)
 turtle.right(90)
-turtle.forward(225)
-turtle.circle(45)
-
+turtle.forward(170)
+turtle.right(90)
+turtle.begin_fill()
+turtle.circle(60)
+turtle.end_fill()
+turtle.penup()
+turtle.right(-90)
+turtle.forward(400)
+turtle.pendown()
+turtle.right(-90)
+turtle.forward(75)
+turtle.right(90)
+sqursp()
 
 
 

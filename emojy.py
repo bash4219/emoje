@@ -31,10 +31,8 @@ def iese():
     ies.end_fill()
 
 
-
 fase()
 iese()
-
 
 
 turtle.exitonclick()
